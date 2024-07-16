@@ -20,6 +20,11 @@ body {overflow: hidden;}
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" /></svg>{{LANG create}}
 					</a>
 				<?php } ?> -->
+				<?php if ($pt->config->shorts_system == 'on' && (!IS_LOGGED || (IS_LOGGED && !$pt->user->suspend_upload))) { ?>
+					<a href="https://www.kenyanstream.com/creators" class="btn btn-main">
+						<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" /></svg> Escorts
+					</a>
+				<?php } ?>
 			</h4>
 		</div>
 		<div class="swiper">
