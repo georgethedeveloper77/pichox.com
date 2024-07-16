@@ -1398,7 +1398,7 @@ $(function() {
               </a>
             </li>
 
-            <li>
+            <!-- <li>
               <a <?php echo ($page == 'changelog') ? 'class="active"' : ''; ?>
                 href="<?php echo PT_LoadAdminLinkSettings('changelog'); ?>" data-ajax="?path=changelog">
                 <span class="nav-link-icon">
@@ -1406,16 +1406,16 @@ $(function() {
                 </span>
                 <span>Changelogs</span>
               </a>
-            </li>
+            </li> -->
 
-            <li>
+            <!-- <li>
               <a href="http://docs.playtubescript.com" target="_blank">
                 <span class="nav-link-icon">
                   <i class="material-icons">more_vert</i>
                 </span>
                 <span>FAQs & Docs</span>
               </a>
-            </li>
+            </li> -->
             <a class="pow_link" href="https://www.kenyanstream.com/" target="_blank">
               <p>Powered by</p>
               <img
