@@ -480,7 +480,7 @@ $config_file = file_put_contents($config_file_name, $file_content);
                                             <label class="col-md-3" for="siteName">Purchase code </label>
                                             <div class="col-md-6">
                                                 <input type="text" class="form-control" name="purshase_code" value="<?php echo (!empty($_POST['purshase_code'])) ? $_POST['purshase_code']: '';?>">
-                                                <span class="help-block">Enter random value - | <a style="color:red;" href="https://wa.me/919822491553" target="_blank">Please ping me on WhatsApp for more scripts</a></span>
+                                                <span class="help-block">Enter random value</span>
                                             </div>
                                         </div>
                                         <div class="form-group">
