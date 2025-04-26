@@ -10,17 +10,17 @@
 // +------------------------------------------------------------------------+
 header("Location: ./install");
 // MySQL Hostname
-$sql_db_host = "";
+$sql_db_host = "localhost:3306";
 // MySQL Database User
-$sql_db_user = "";
+$sql_db_user = "pichoxuser";
 // MySQL Database Password
-$sql_db_pass = "";
+$sql_db_pass = "ryA$%0jnYW0s7hmf";
 // MySQL Database Name
-$sql_db_name = "";
+$sql_db_name = "pichoxdb";
 
 // Site URL
-$site_url = ""; // e.g (http://example.com)
+$site_url = "https://pichox.com"; // e.g (http://example.com)
 
 // Purchase code
-$purchase_code = ""; // Your purchase code, don't give it to anyone. 
+$purchase_code = "pichox"; // Your purchase code, don't give it to anyone. 
 ?>
