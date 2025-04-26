@@ -1419,7 +1419,7 @@ $(function() {
             <a class="pow_link" href="https://georgethedeveloper.com/" target="_blank">
               <p>Powered by</p>
               <img
-                src="https://pichox.com/themes/youplay/img/logo-light.png?cache=167<?php echo($pt->config->logo_cache) ?>">
+                src="https://pichox.com/themes/youplay/img/logo-light.png?cache=346<?php echo($pt->config->logo_cache) ?>">
               <b class="badge">v<?php echo $config['script_version'];?></b>
             </a>
           </ul>
