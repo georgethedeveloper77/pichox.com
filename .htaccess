@@ -1,11 +1,5 @@
 RewriteEngine On
 
-# Redirect root domain to /shorts
-RewriteCond %{REQUEST_URI} ^/$
-RewriteRule ^$ /shorts/ [L,R=301]
-# end of Redirect root domain to /shorts
-
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^$ index.php?link1=home [NC,QSA]
