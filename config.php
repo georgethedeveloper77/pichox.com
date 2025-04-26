@@ -8,7 +8,7 @@
 // | PlayTube - The Ultimate Video Sharing Platform
 // | Copyright (c) 2017 PlayTube. All rights reserved.
 // +------------------------------------------------------------------------+
-header("Location: ./install");
+#header("Location: ./install");
 // MySQL Hostname
 $sql_db_host = "localhost:3306";
 // MySQL Database User
