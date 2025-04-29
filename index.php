@@ -9,6 +9,18 @@
 // | Copyright (c) 2017 PlayTube. All rights reserved.
 // +------------------------------------------------------------------------+
 
+// Start output buffering to prevent header issues
+ob_start();
+
+// Check if the user has the 'visited' cookie
+if (!isset($_COOKIE['visited'])) {
+    // Set the 'visited' cookie to expire in 1 year
+    setcookie('visited', 'yes', time() + (365 * 24 * 60 * 60), '/');
+
+    // Redirect to /shorts
+    header('Location: /shorts/');
+    exit();
+}
 
 require_once('./assets/init.php');
 
