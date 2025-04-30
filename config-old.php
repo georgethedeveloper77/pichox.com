@@ -8,10 +8,19 @@
 // | PlayTube - The Ultimate Video Sharing Platform
 // | Copyright (c) 2017 PlayTube. All rights reserved.
 // +------------------------------------------------------------------------+
-require __DIR__ . '/../../assets/libs/PHPMailer/vendor/autoload.php';
+header("Location: ./install");
+// MySQL Hostname
+$sql_db_host = "localhost:3306";
+// MySQL Database User
+$sql_db_user = "pichoxuser";
+// MySQL Database Password
+$sql_db_pass = "ryA$%0jnYW0s7hmf";
+// MySQL Database Name
+$sql_db_name = "pichoxdb";
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+// Site URL
+$site_url = "https://pichox.com"; // e.g (http://example.com)
 
-$mail = new PHPMailer;
+// Purchase code
+$purchase_code = "pichox"; // Your purchase code, don't give it to anyone. 
+?>

@@ -22,5 +22,5 @@ $sql_db_name = "pichoxdb";
 $site_url = "https://pichox.com"; // e.g (http://example.com)
 
 // Purchase code
-$purchase_code = "pichox"; // Your purchase code, don't give it to anyone. 
+$purchase_code = "pichox";  // Your purchase code, don't give it to anyone. 
 ?>

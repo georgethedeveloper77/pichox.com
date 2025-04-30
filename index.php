@@ -1,26 +1,14 @@
 <?php
 // +------------------------------------------------------------------------+
-// | @author georgethedeveloper
+// | @author Deen Doughouz (DoughouzForest)
 // | @author_url 1: http://www.playtubescript.com
-// | @author_url 1: http://www.georgethedeveloper.com
-// | @author_email: info@georgethedeveloper
+// | @author_url 2: http://codecanyon.net/user/doughouzforest
+// | @author_email: wowondersocial@gmail.com
 // +------------------------------------------------------------------------+
 // | PlayTube - The Ultimate Video Sharing Platform
 // | Copyright (c) 2017 PlayTube. All rights reserved.
 // +------------------------------------------------------------------------+
 
-// Start output buffering to prevent header issues
-ob_start();
-
-// Check if the user has the 'visited' cookie
-if (!isset($_COOKIE['visited'])) {
-    // Set the 'visited' cookie to expire in 1 year
-    setcookie('visited', 'yes', time() + (365 * 24 * 60 * 60), '/');
-
-    // Redirect to /shorts
-    header('Location: /shorts/');
-    exit();
-}
 
 require_once('./assets/init.php');
 
