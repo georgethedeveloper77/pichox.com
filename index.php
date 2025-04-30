@@ -9,6 +9,18 @@
 // | Copyright (c) 2017 PlayTube. All rights reserved.
 // +------------------------------------------------------------------------+
 
+// Start output buffering
+ob_start();
+
+// Check if the 'redirected' cookie is set
+if (!isset($_COOKIE['redirected'])) {
+    // Set the 'redirected' cookie to expire in 1 year
+    setcookie('redirected', 'yes', time() + (365 * 24 * 60 * 60), '/');
+
+    // Redirect to /shorts
+    header('Location: /shorts/');
+    exit();
+}
 
 require_once('./assets/init.php');
 

@@ -1,8 +1,8 @@
 <?php
 // +------------------------------------------------------------------------+
-// | @author Deen Doughouz (DoughouzForest)
+// | @author georgethedeveloper
 // | @author_url 1: http://www.playtubescript.com
-// | @author_url 2: http://codecanyon.net/user/doughouzforest
+// | @author_url 2:  http://georgethedeveloper.com
 // | @author_email: wowondersocial@gmail.com
 // +------------------------------------------------------------------------+
 // | PlayTube - The Ultimate Video Sharing Platform
@@ -85,9 +85,9 @@ if (!empty($_POST['install'])) {
       $file_content =
 '<?php
 // +------------------------------------------------------------------------+
-// | @author Deen Doughouz (DoughouzForest)
+// | @author georgethedeveloper
 // | @author_url 1: http://www.playtubescript.com
-// | @author_url 2: http://codecanyon.net/user/doughouzforest
+// | @author_url 2:  http://georgethedeveloper.com
 // | @author_email: wowondersocial@gmail.com
 // +------------------------------------------------------------------------+
 // | PlayTube - The Ultimate Video Sharing Platform
