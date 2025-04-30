@@ -11,7 +11,7 @@
 //header("Location: ./install");
 
 // ← Add or modify this:
-$auto_redirect = false;
+#$auto_redirect = false;
 // MySQL Hostname
 $sql_db_host = "localhost:3306";
 // MySQL Database User
